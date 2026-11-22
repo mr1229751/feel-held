@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "You have read so many today. Between this text and the next there is a narrow shore where nothing is asked of you. No pair, no verdict. The water is shallow and warm. It does not need anything from you. It is only glad you passed by.";
+  "The train has stopped at a station nobody remembers the name of. The doors stand open. Nobody gets on, nobody gets off. On the roof, pigeons settle back into the warmth. It will leave when it leaves. Until then, the whole carriage breathes slowly, together.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", TEXT, "utf8");
